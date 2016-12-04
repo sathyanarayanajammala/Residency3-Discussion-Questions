@@ -3,7 +3,7 @@ Residency3/Discussion Questions
 
 General observations and assumptions:
 ------------------------------------
-Week 0: Sept16 to Sept22 (ramdom week)(During this week there is little high possibility of profits in real estate and gold industries. Becasue few people may buy house or gold with their balck money, rather than paying voluntary tax)
+Week 0: Sept16 to Sept22 (ramdom week)(During this week there is little high possibility of profits in real estate, automobile and gold industries. Becasue few people may buy house or gold with their balck money, rather than paying voluntary tax)
 Week 1: oct 24 to Oct 28
 Week 2: oct 31 to 4th Nov
 Week 3: Nov 7 to 11th Nov
