@@ -45,5 +45,5 @@ I believe there is no much impact for IT industry other than waiting time at ATM
 
 Observations in Auto mobile Industry
 ====================================
-
-
+November season is best season for auto mobile industry. Lots of offer on 2 wheelers and 4 wheelers.After Nov 8th 30% sales is droped
+http://economictimes.indiatimes.com/industry/auto/post-demonetisation-auto-industry-fear-november-retail-sales-drop-by-30/articleshow/55531664.cms 
