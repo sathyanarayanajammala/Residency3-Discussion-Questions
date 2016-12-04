@@ -3,20 +3,39 @@ Residency3/Discussion Questions
 
 General observations and assumptions:
 ------------------------------------
-Week 0: Sept16 to Sept22
+Week 0: Sept16 to Sept22 (ramdom week)
 Week 1: oct 24 to Oct 28
 Week 2: oct 31 to 4th Nov
 Week 3: Nov 7 to 11th Nov
 Week 4: Nov 14 to nov 18
 
 
-Observations for Tourism Insudtry
-==============================
+Observations for Tourism Industry
+================================
 
 More business is expected,because of festivals,marriages and Karthika maasam. During Karthika maasam, people visit devotional placess more. 
-
-Few Data sources for tourism
-==============================
+Data sources for tourism:
 assam tourism data: http://g-plus.in/page/news-demonetization-dents-assam-tourism-industry-50-of-all-bookings-cancelled
 Nepal tourism:   http://globalriskinsights.com/2016/11/nepal-turmoil-after-rupee-demonetization/
+
+
+Observations for Gold Industry
+================================
+Because of various sentimental(festivals,Karthika maasam) reasons and other occasion(marriages) , 
+more business is expected till end of January 2017. Currently there is only 20% in metros and below 20% in rural.
+
+Live chennai:  http://www.livechennai.com/detailnews.asp?catid=10&newsid=30833 
+
+Observations for real estate Industry
+================================
+People are not buying new house from Nov 8th. They are expecting some correction in price and home loan interest.
+
+Source:
+ G&S wealth for all:  http://us3.campaign-archive2.com/?u=7db9e9b5c4ce3dce9ff9fc97e&id=d560dc5b45&e=34806930a0
+ 
+ Observations for entertainment Industry
+=======================================
+Many movies postponed because of demonetization. Huge loss for add agencies. 
+
+Add agencies:  http://www.dnaindia.com/money/report-ad-firms-see-rs-2000-cr-business-loss-on-demonetization-2278259
 
