@@ -1,0 +1,157 @@
+########################################################################
+# Introscope ProbeBuilder Directives File
+# 
+# CA Wily Introscope(R) Version 10.2.0
+# Introscope(R) is a registered trademark of CA.
+########################################################################
+
+#############################################################
+# This file provides directives for ARR Safe Deposit Box.      
+###########################
+
+TurnOn: ARRSafeDepositBox
+
+SetFlag: ARRSafeDepositBox
+
+TraceComplexMethodsIfFlagged:	ARRSafeDepositBox BlamePointTracer "ARRSafeDepositBox|Database|{packagename}|{classname}|{method}"
+TraceComplexMethodsIfFlagged:	ARRSafeDepositBox BlamePointTracer "ARRSafeDepositBox|Database|{packagename}|{classname}"
+TraceComplexMethodsIfFlagged:	ARRSafeDepositBox BlamePointTracer "ARRSafeDepositBox|Database"
+
+IdentifyClassAs: com.chase.es.arrangement.sbv.admin.delegate.AdministerBoxToVaultMovementDelegator ARRSafeDepositBox
+IdentifyClassAs: com.chase.es.arrangement.sdb.safebox.delegate.AdministerSafeDepositBoxServiceDelegator ARRSafeDepositBox
+
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.negotiation.delegate.ActivateSDBArrangementDelegator activate BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.negotiation.delegate.ActivateSDBArrangementDelegator activate BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.negotiation.delegate.ActivateSDBArrangementDelegator activate BlamePointTracer "ARRSafeDepositBox|Service"
+
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator inquiryAuctionLot BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator inquiryAuctionLot BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator inquiryAuctionLot BlamePointTracer "ARRSafeDepositBox|Service"
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator inquireAuctionLotBags BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator inquireAuctionLotBags BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator inquireAuctionLotBags BlamePointTracer "ARRSafeDepositBox|Service"
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator closeAuctionLot BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator closeAuctionLot BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator closeAuctionLot BlamePointTracer "ARRSafeDepositBox|Service"
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator maintainAuctionLot BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator maintainAuctionLot BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator maintainAuctionLot BlamePointTracer "ARRSafeDepositBox|Service"
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator calculateAuctionLotSales BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator calculateAuctionLotSales BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.AuctionLotDelegator calculateAuctionLotSales BlamePointTracer "ARRSafeDepositBox|Service"
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.ShipmentDelegator administerShipment BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.ShipmentDelegator administerShipment BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.ShipmentDelegator administerShipment BlamePointTracer "ARRSafeDepositBox|Service"
+
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.ShipmentDelegator inquireShippedBags BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.ShipmentDelegator inquireShippedBags BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.ShipmentDelegator inquireShippedBags BlamePointTracer "ARRSafeDepositBox|Service"
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.ShipmentDelegator reclaimBags BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.ShipmentDelegator reclaimBags BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sbv.admin.delegate.ShipmentDelegator reclaimBags BlamePointTracer "ARRSafeDepositBox|Service"
+
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.calculation.delegate.CalculatePeriodicFeeServiceDelegator calculateFee BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.calculation.delegate.CalculatePeriodicFeeServiceDelegator calculateFee BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.calculation.delegate.CalculatePeriodicFeeServiceDelegator calculateFee BlamePointTracer "ARRSafeDepositBox|Service"
+
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.maintenance.delegate.ModifySDBArrangementServiceDelegator administerArrangement BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.maintenance.delegate.ModifySDBArrangementServiceDelegator administerArrangement BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.maintenance.delegate.ModifySDBArrangementServiceDelegator administerArrangement BlamePointTracer "ARRSafeDepositBox|Service"
+
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.reporting.delegate.SDBHistoryReportingServiceDelegator getMaintenceReport BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.reporting.delegate.SDBHistoryReportingServiceDelegator getMaintenceReport BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.reporting.delegate.SDBHistoryReportingServiceDelegator getMaintenceReport BlamePointTracer "ARRSafeDepositBox|Service"
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.reporting.delegate.AccessHistoryReportingDelegator reportAccessHistory BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.reporting.delegate.AccessHistoryReportingDelegator reportAccessHistory BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.reporting.delegate.AccessHistoryReportingDelegator reportAccessHistory BlamePointTracer "ARRSafeDepositBox|Service"
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.reporting.delegate.AccessHistoryReportingDelegator getVaultHistoryDetail BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.reporting.delegate.AccessHistoryReportingDelegator getVaultHistoryDetail BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.reporting.delegate.AccessHistoryReportingDelegator getVaultHistoryDetail BlamePointTracer "ARRSafeDepositBox|Service"
+
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.reporting.delegate.AccessHistoryReportingDelegator getVaultHistory BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.reporting.delegate.AccessHistoryReportingDelegator getVaultHistory BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.reporting.delegate.AccessHistoryReportingDelegator getVaultHistory BlamePointTracer "ARRSafeDepositBox|Service"
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.inquiry.delegate.SDBArrangementInquiryServiceDelegator inquiry BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.inquiry.delegate.SDBArrangementInquiryServiceDelegator inquiry BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.inquiry.delegate.SDBArrangementInquiryServiceDelegator inquiry BlamePointTracer "ARRSafeDepositBox|Service"
+
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.inquiry.delegate.SDBArrangementInquiryServiceDelegator dueDiligenceInquiry BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.inquiry.delegate.SDBArrangementInquiryServiceDelegator dueDiligenceInquiry BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.inquiry.delegate.SDBArrangementInquiryServiceDelegator dueDiligenceInquiry BlamePointTracer "ARRSafeDepositBox|Service"
+
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.inquiry.delegate.SDBArrangementInquiryServiceDelegator arrangementBoxInquiry BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.inquiry.delegate.SDBArrangementInquiryServiceDelegator arrangementBoxInquiry BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.inquiry.delegate.SDBArrangementInquiryServiceDelegator arrangementBoxInquiry BlamePointTracer "ARRSafeDepositBox|Service"
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.inquiry.delegate.SDBArrangementInquiryServiceDelegator toBeDrilledInquiry BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.inquiry.delegate.SDBArrangementInquiryServiceDelegator toBeDrilledInquiry BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.inquiry.delegate.SDBArrangementInquiryServiceDelegator toBeDrilledInquiry BlamePointTracer "ARRSafeDepositBox|Service"
+
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.history.create.delegate.SDBMaintenanceHistoryRecordingServiceDelegator handle BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.history.create.delegate.SDBMaintenanceHistoryRecordingServiceDelegator handle BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.history.create.delegate.SDBMaintenanceHistoryRecordingServiceDelegator handle BlamePointTracer "ARRSafeDepositBox|Service"
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.termination.delegate.TerminateSDBArrangementServiceDelegator terminateArrangement BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.termination.delegate.TerminateSDBArrangementServiceDelegator terminateArrangement BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.termination.delegate.TerminateSDBArrangementServiceDelegator terminateArrangement BlamePointTracer "ARRSafeDepositBox|Service"
+
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.termination.delegate.TerminateSDBArrangementServiceDelegator rollbackTerminatedArrangement BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.termination.delegate.TerminateSDBArrangementServiceDelegator rollbackTerminatedArrangement BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.termination.delegate.TerminateSDBArrangementServiceDelegator rollbackTerminatedArrangement BlamePointTracer "ARRSafeDepositBox|Service"
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.termination.delegate.CalculateRefundAmountDelegator calculateRefundAmount BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.termination.delegate.CalculateRefundAmountDelegator calculateRefundAmount BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.termination.delegate.CalculateRefundAmountDelegator calculateRefundAmount BlamePointTracer "ARRSafeDepositBox|Service"
+
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.vertex.VertexServiceImpl retrieveTaxAmount BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.vertex.VertexServiceImpl retrieveTaxAmount BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.vertex.VertexServiceImpl retrieveTaxAmount BlamePointTracer "ARRSafeDepositBox|Service"
+
+
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.vertex.VertexServiceImpl updateTaxAccumulation BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}|{method}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.vertex.VertexServiceImpl updateTaxAccumulation BlamePointTracer "ARRSafeDepositBox|Service|{packagename}|{classname}"
+TraceOneMethodOfClass: com.chase.es.arrangement.sdb.vertex.VertexServiceImpl updateTaxAccumulation BlamePointTracer "ARRSafeDepositBox|Service"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
